@@ -1,2 +1,0 @@
-/home/cqao/Code/AoC_2020/day1/CMakeFiles/day1_1.dir
-/home/cqao/Code/AoC_2020/day1/CMakeFiles/day1_2.dir
