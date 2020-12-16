@@ -24,15 +24,15 @@ int main(int argc, char *argv[])
     int secondNumber = 0;
     int thirdNumber = 0;
 
-    for(int i=0; i<expenses.size();i++)
+    for(unsigned int i=0; i<expenses.size();i++)
     {
         firstNumber = expenses[i];
 
-        for(int j=0; j<expenses.size();j++)
+        for(unsigned int j=0; j<expenses.size();j++)
         {
             secondNumber = expenses[j];
 
-            for (int k=0; k<expenses.size(); k++)
+            for (unsigned int k=0; k<expenses.size(); k++)
             {
                 thirdNumber = expenses[k];
 

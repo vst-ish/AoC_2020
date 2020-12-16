@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     std::ifstream ist(argv[1]);
     if(!ist) std::cout<<"Unable to open file." << std::endl;
     
-    for(int i=0; ist>>i;)
+    for(unsigned int i=0; ist>>i;)
     {
         expenses.push_back(i);
     }
@@ -24,11 +24,11 @@ int main(int argc, char *argv[])
     int baseNumber = 0;
     int otherNumber = 0;
 
-    for(int i=0; i<expenses.size();i++)
+    for(unsigned int i=0; i<expenses.size();i++)
     {
         baseNumber = expenses[i];
 
-        for(int j=0; j<expenses.size();j++)
+        for(unsigned int j=0; j<expenses.size();j++)
         {
             otherNumber = expenses[j];
 
